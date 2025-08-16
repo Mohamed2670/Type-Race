@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useEffect, useState, type TextareaHTMLAttributes } from "react";
+import React, { useEffect, useState } from "react";
 
 export default function Quote() {
   const [quote, setQuote] = useState<string>("");
